@@ -151,9 +151,9 @@ int main()
 
     for (size_t j = 0; j < squareCount; j++)
     {
-        r = static_cast <float> (rand() & 3); // sorry for not c-pasting an existing solution for the colors. 
-        g = static_cast <float> (rand() & 3);
-        b = static_cast <float> (rand() & 3);
+        r = static_cast <float> (rand() & 256); // sorry for not c-pasting an existing solution for the colors. 
+        g = static_cast <float> (rand() & 256);
+        b = static_cast <float> (rand() & 256);
 
         for (size_t i = 0; i < square1.size(); i++)
         {
